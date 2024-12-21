@@ -1,13 +1,20 @@
+import cabin from "../assets/img/portfolio/cabin.png";
+import cake from "../assets/img/portfolio/cake.png";
+import circus from "../assets/img/portfolio/circus.png";
+import game from "../assets/img/portfolio/game.png";
+import safe from "../assets/img/portfolio/safe.png";
+import submarine from "../assets/img/portfolio/submarine.png";
+
 export default function Portfolio() {
   const portfolioItems = [
-    { id: 1, image: "src/assets/img/portfolio/cabin.png", title: "Cabin" },
-    { id: 2, image: "src/assets/img/portfolio/cake.png", title: "Cake" },
-    { id: 3, image: "src/assets/img/portfolio/circus.png", title: "Circus" },
-    { id: 4, image: "src/assets/img/portfolio/game.png", title: "Game" },
-    { id: 5, image: "src/assets/img/portfolio/safe.png", title: "Safe" },
+    { id: 1, image: cabin, title: "Cabin" },
+    { id: 2, image: cake, title: "Cake" },
+    { id: 3, image: circus, title: "Circus" },
+    { id: 4, image: game, title: "Game" },
+    { id: 5, image: safe, title: "Safe" },
     {
       id: 6,
-      image: "src/assets/img/portfolio/submarine.png",
+      image: submarine,
       title: "Submarine",
     },
   ];
