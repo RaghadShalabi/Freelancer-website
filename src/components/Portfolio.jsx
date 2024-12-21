@@ -1,17 +1,15 @@
-import cabin from "src/assets/img/portfolio/cabin.png";
-import cake from "src/assets/img/portfolio/cake.png";
-import circus from "src/assets/img/portfolio/circus.png";
-import game from "src/assets/img/portfolio/game.png";
-import safe from "src/assets/img/portfolio/safe.png";
-import submarine from "src/assets/img/portfolio/submarine.png";
 export default function Portfolio() {
   const portfolioItems = [
-    { id: 1, image: { cabin }, title: "Cabin" },
-    { id: 2, image: { cake }, title: "Cake" },
-    { id: 3, image: { circus }, title: "Circus" },
-    { id: 4, image: { game }, title: "Game" },
-    { id: 5, image: { safe }, title: "Safe" },
-    { id: 6, image: { submarine }, title: "Submarine" },
+    { id: 1, image: "src/assets/img/portfolio/cabin.png", title: "Cabin" },
+    { id: 2, image: "src/assets/img/portfolio/cake.png", title: "Cake" },
+    { id: 3, image: "src/assets/img/portfolio/circus.png", title: "Circus" },
+    { id: 4, image: "src/assets/img/portfolio/game.png", title: "Game" },
+    { id: 5, image: "src/assets/img/portfolio/safe.png", title: "Safe" },
+    {
+      id: 6,
+      image: "src/assets/img/portfolio/submarine.png",
+      title: "Submarine",
+    },
   ];
   return (
     <div className="container" style={{ paddingBottom: "70px" }}>
@@ -64,7 +62,7 @@ export default function Portfolio() {
 
       <div className="row justify-content-center">
         {portfolioItems.map((item) => (
-          <div className="col-md-6 col-lg-4 mb-5" key={item.id}>
+          <div className="col-md-6 col-lg-4 mb-5">
             <img
               className="img-fluid"
               src={item.image}
