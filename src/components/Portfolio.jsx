@@ -19,7 +19,7 @@ export default function Portfolio() {
     },
   ];
   return (
-    <div className="container" style={{ paddingBottom: "70px" }}>
+    <div className="container" style={{ paddingBottom: "70px",paddingTop:"100px" }} >
       <h2
         className=" text-center text-uppercase mb-0"
         style={{
@@ -54,7 +54,7 @@ export default function Portfolio() {
           className="divider-custom-icon"
           style={{ color: "rgb(44 62 80)", fontSize: "45px" }}
         >
-          <i class="fas fa-star"></i>
+          <i className="fas fa-star"></i>
         </div>
         <div
           className="divider-custom-line "

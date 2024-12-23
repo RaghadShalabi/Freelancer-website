@@ -5,8 +5,8 @@ export default function About() {
       id="about"
       style={{
         backgroundColor: "rgb(26 188 156)",
-        paddingTop: "100px",
-        paddingBottom: "170px",
+        paddingTop: "180px",
+        paddingBottom: "100px",
       }}
     >
       <div className="container">
@@ -61,10 +61,12 @@ export default function About() {
           href="https://startbootstrap.com/theme/freelancer/"
         >
           <i
-            class="fas fa-download me-2"
+            className="fas fa-download me-2"
             style={{ fontSize: "30px", padding: "20px 15px" }}
           ></i>
-          <span style={{fontSize:"26px" ,paddingRight:"15px"}}>Free Download!</span>
+          <span style={{ fontSize: "26px", paddingRight: "15px" }}>
+            Free Download!
+          </span>
         </a>
       </div>
     </section>

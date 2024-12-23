@@ -30,7 +30,7 @@ export default function Footer() {
                 }}
                 href="#"
               >
-                <i class="fab fa-fw fa-facebook-f"></i>
+                <i className="fab fa-fw fa-facebook-f"></i>
               </a>
               <a
                 className="btn btn-outline-light btn-social mx-1 rounded-circle border-2"
@@ -42,7 +42,7 @@ export default function Footer() {
                 }}
                 href="#"
               >
-                <i class="fab fa-fw fa-twitter"></i>
+                <i className="fab fa-fw fa-twitter"></i>
               </a>
               <a
                 className="btn btn-outline-light btn-social mx-1 rounded-circle border-2"
@@ -54,7 +54,7 @@ export default function Footer() {
                 }}
                 href="#"
               >
-                <i class="fab fa-fw fa-linkedin-in"></i>
+                <i className="fab fa-fw fa-linkedin-in"></i>
               </a>
               <a
                 className="btn btn-outline-light btn-social mx-1 rounded-circle border-2"
@@ -66,7 +66,7 @@ export default function Footer() {
                 }}
                 href="#"
               >
-                <i class="fab fa-fw fa-dribbble"></i>
+                <i className="fab fa-fw fa-dribbble"></i>
               </a>
             </div>
             <div className="col-lg-4">

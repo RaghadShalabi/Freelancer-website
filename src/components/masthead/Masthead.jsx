@@ -24,10 +24,13 @@ export default function Masthead() {
         >
           Start Bootstrap
         </h1>
-        <div className="divider-custom divider-light m-2.5 mb-4" style={{width:"80%"}}>
+        <div
+          className="divider-custom divider-light m-2.5 mb-4"
+          style={{ width: "80%" }}
+        >
           <div className="divider-custom-line" />
           <div className="divider-custom-icon">
-            <i class="fas fa-star"></i>
+            <i className="fas fa-star"></i>
           </div>
           <div className="divider-custom-line" />
         </div>

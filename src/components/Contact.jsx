@@ -8,7 +8,7 @@ export default function Contact() {
             fontSize: "4em",
             fontWeight: "bold",
             color: "rgb(44 62 80)",
-            paddingTop: "85px",
+            paddingTop:"180px"
           }}
         >
           Contact Me
